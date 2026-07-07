@@ -5,8 +5,8 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const WORK_COOLDOWN = 30 * 60 * 1000;
-const MIN_WORK_AMOUNT = 50;
+const WORK_COOLDOWN = 3 * 6 * 10;
+const MIN_WORK_AMOUNT = 500;
 const MAX_WORK_AMOUNT = 300;
 const LAPTOP_MULTIPLIER = 1.5;
 const WORK_JOBS = [
